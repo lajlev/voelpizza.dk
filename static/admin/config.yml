@@ -7,7 +7,7 @@ collections:
   - name: "pizzas" # Used in routes, e.g., /admin/collections/post
     label: "Pizzas" # Used in the UI
     folder: "content/pizzas" # The path to the folder where the documents are stored
-    path: "{{slug}}/index"
+    path: "{{category}}{{slug}}/index"
     media_folder: "" # Save images in the post's own folder instead of the static folder
     public_folder: ""
     create: true # Allow users to create new documents in this collection
@@ -19,9 +19,9 @@ collections:
         name: "category"
         widget: "select"
         options:
-          - { label: "Traditionel pizza", value: "1" }
-          - { label: "Special pizza", value: "2" }
-          - { label: "Kurdisk pizza", value: "3" }
+          - { label: "Traditionel pizza", value: "tranditionel" }
+          - { label: "Special pizza", value: "special" }
+          - { label: "Kurdisk pizza", value: "kurdisk" }
       - { label: "Billede", name: "image", widget: "image" }
 
   - name: "pages"
