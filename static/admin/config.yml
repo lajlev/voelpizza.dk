@@ -14,7 +14,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: "Nummer", name: "number", widget: "string" }
       - { label: "Titel", name: "title", widget: "string" }
-      - { label: "Beskrivelse", name: "beskrivelse", widget: "text" }
+      - { label: "Beskrivelse", name: "description", widget: "text" }
       - label: "Kategori"
         name: "category"
         widget: "select"
@@ -22,6 +22,7 @@ collections:
           - { label: "Traditionel pizza", value: "tranditionel" }
           - { label: "Special pizza", value: "special" }
           - { label: "Kurdisk pizza", value: "kurdisk" }
+      - { label: "Pris", name: "price", widget: "number" }
       - { label: "Billede", name: "image", required: false, widget: "image" }
 
   - name: "pages"
