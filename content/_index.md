@@ -1,6 +1,6 @@
 ---
-title: "Hi There"
-blurb: "Welcome to your new Hugo site."
+title: Voel Pizzaria
+blurb: Velkommen til Voel Pizzaria
 ---
 
 ## TEst
