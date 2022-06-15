@@ -1,6 +1,6 @@
 ---
 title: Voel Pizzaria
-blurb: Velkommen til Voel Pizzaria
+blurb: Velkommen til Nisseland
 ---
 
 ## TEst
